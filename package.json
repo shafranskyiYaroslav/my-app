@@ -1,0 +1,58 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/node": "^12.7.1",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.8.5",
+    "@types/react-redux": "^7.1.1",
+    "@types/react-test-renderer": "^16.9.0",
+    "@types/reactstrap": "^8.0.5",
+    "bootstrap": "^4.3.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jest-enzyme": "^7.1.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.0",
+    "react-scripts": "3.0.1",
+    "react-test-renderer": "^16.9.0",
+    "reactstrap": "^8.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "tslint"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/deep-freeze": "^0.1.2",
+    "@types/jest": "^24.0.17",
+    "@types/redux": "^3.6.0",
+    "babel-jest": "^24.8.0",
+    "deep-freeze": "0.0.1",
+    "redux": "^4.0.4",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.19.0",
+    "typescript": "^3.5.3"
+  }
+}
